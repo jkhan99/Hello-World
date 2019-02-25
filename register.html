@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class=" BMDC logo"> <img src="https://bradfordmdc.files.wordpress.com/2017/08/wordpress-featured-image-bradford-council-logo-2017c1.png?w=604&h=270&crop=1" width="300px" height="130px" alt="City of Bradford Metropolitan District Council logo" /> </div>
+<h1>Welcome to Bradford Metropolitan District Council</h1>
+<nav class ="nav">
+  <ul>
+    <li><a href ="#">Department of Place</a></li>
+    <li><a href ="#">Department of Children Services</a></li>
+    <li><a href ="#">Department of Adult Services</a></li>
+  </ul>
+</nav>
+<div class="login">
+  <h2>Register</h2>
+  <form class="box" action="register.php" method="post">
+    <label>First Name</label>
+    <br>
+    <input name="firstname" type ="text" class="value" placeholder= "First name" required/>
+    <br>
+    <label>Surname</label>
+    <br>
+    <input name="surname" type ="text" class="value" placeholder= "Surname" required/>
+    <br>
+    <label>Username</label>
+    <br>
+    <input name="username" type ="text" class="value" placeholder= "Username" required/>
+    <br>
+    <label>Password</label>
+    <input name = "password" type ="password" class="value" placeholder= "Password*" required/>
+    <br>
+    <label>Email address</label>
+    <input name="email" type ="text" class="value" placeholder= "Email address*" required/>
+    <br>
+    <label>Phone number</label>
+    <input name="number" type ="number" class="value" placeholder= "Mobile*" required/>
+    <br>
+    <input name="register" type="submit" class="login_btn" value="Register">
+    <br>
+    <a href="index.html">
+    <input type="button" class="back_btn" value="Back to Login"/>
+    </a>
+  </form>
+</div>
+</body>
+</html>
