@@ -1,63 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+h1 {
+	padding: 30px;
+	text-align: right;
+	font-size: 30px;
+}
 img {
-	position:absolute;
-  left:0;
-  top:0;
-  width: 320px;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 body {
-  font: arial, sans-serif;
+	font: arial, sans-serif;
 }
-
-.nav{
-  width: 100%;
-  background:#005192;
-  height:70px;
-  
+.nav {
+	width: 100%;
+	background: #005192;
+	height: 70px;
 }
 ul {
-  margin: 0;
-  padding: 0;
-  float:left;
-  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
 }
-
 ul li {
-  float: left;
+	float: left;
 }
-
 ul li a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 15px 20px;
-  font-size: 20px;
-  line-height:40px;
-  color: white;
-  display: block;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	border-radius: 10px;
+	padding: 15px 60px 15px 60px;
+	text-align: center;
 }
-
 ul li a:hover {
-  background-color: #006871;
+	background-color: #006871;
 }
-
-.nav-info {
-  top: 70px;
-  overflow: hidden;
-  position: absolute;
-  background:#005192;
+.login {
+	width: 400px;
+	margin: 0 auto;
+	background: #006871;
+	padding: 10px;
+	color: white;
+	border-radius: 20px;
+	margin-top: 50px;
 }
-
-.sub-nav{
-padding: 20px;
-    position: absolute;
+h2 {
+	text-align: center;
+	font-size: 30px;
 }
-
-.sub-nav ul {
-  padding:0;
-  margin:0;
-  list-style-type:none;
+.avatar {
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
 }
-
-.sub-nav ul li a {
-  diplay: inline-block;
-  padding: 5px 0;
+.box {
+	width: 350px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: bold;
+}
+.value {
+	width: 330px;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.login_btn {
+	background-color: #005192;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.register_btn {
+	background-color: #005192;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+.back_btn {
+	background-color: dimgrey;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+	width: 30%;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
